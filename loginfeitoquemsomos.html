@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quem Somos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/quicksand.css">
+    <script src="jquery/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/popupcss.css">
+    <script src="js/navbar.js"></script>
+</head>
+<body>
+<div class="wrapper">
+
+    <nav>
+        <div class="logo">
+            MultiEST
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="loginfeitoindex.html">Home</a></li>
+                <li><a href="loginfeitoquemsomos.html">Quem Somos</a></li>
+                <li><a href="loginfeitogaleria.html">Galeria</a></li>
+                <li><a href="loginfeitocontactos.html">Contactos</a></li>
+                <li><a class="active" href="index.html">Sair</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+
+    <h1>Quem somos?</h1>
+    <h4>Está aqui alguma informação sobre nós, como o que fazemos, o nosso nome, etc. Basta carregar nas imagens !</h4>
+
+    <button id="button" onclick="openpopup()">
+
+    </button>
+
+    <button id="button2" onclick="openpopup2()">
+
+    </button>
+
+    <div id="popup_bg">
+        <div id="popup_main_div">
+            <p id="nome">
+                Tiago Manteigas
+            </p>
+            <p id="info">
+
+                Nome: Tiago Manteigas <br>
+                Data de Nascimento: 30/04/1997<br>
+                O que faço?: Sou estudante na<br>
+                Escola Superior de Tecnologias,<br>
+                e atualmente estou a tirar um curso<br>
+                de C-Tesp de Densenvolvimento de<br>
+                Produtos Multimedia.<br>
+
+            </p>
+
+            <div id="close_popup_div" title="Fechar" onclick="closePopup()">
+                <p>
+                    x
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div id="folgado">
+        <div id="popup_main_div2">
+            <p id="nome2">
+                David Folgado
+            </p>
+            <p id="info2">
+
+                Nome: David Folgado <br>
+                Data de Nascimento: 25/11/1999<br>
+                O que faço?: Sou estudante na<br>
+                Escola Superior de Tecnologias,<br>
+                e atualmente estou a tirar um curso<br>
+                de C-Tesp de Densenvolvimento de<br>
+                Produtos Multimedia.<br>
+
+            </p>
+
+            <div id="close_popup_div2" title="Fechar" onclick="closePopup()">
+                <p>
+                    x
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="js/popupjavsq.js"></script>
+</div>
+<footer>
+    <div class="footer">
+        &copy; David Folgado e Tiago Manteigas
+    </div>
+</footer>
+</body>
+</html>

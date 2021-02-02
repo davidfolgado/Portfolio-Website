@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/quicksand.css">
+    <script src="jquery/jquery-3.3.1.js"></script>
+    <script src="js/loginjs.js"> </script>
+    <script src="js/navbar.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/mystylelogin.css">
+</head>
+<body>
+<div class="wrapper">
+    <nav>
+        <div class="logo">
+            MultiEST
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+                <li><a class="active" href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section class="sec1">
+        <br>
+        <br>
+        <br>
+        <h1>Login</h1>
+        <br>
+
+
+        <from>
+            <div class="imgcontainer">
+                <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+            <h2>Entrar</h2>
+        Username: <input type="text" id="username"><br>
+        Password: <input type="password" id="password"><br>
+        <button type="button" onclick="login()">Entrar </button>
+
+    </from>
+
+
+        <from>
+            <h2>Registar</h2>
+            Username: <input type="text" id="newUser"><br>
+            Password:  <input type="password" id="newPassword"><br>
+            <button id="registar" type="button" onclick="registerUser()">Registar </button>
+
+        </from>
+    </section>
+    <section class="content"><!--login-->
+
+    </section>
+</div>
+</div>
+<br>
+<br>
+<br>
+<footer>
+    <div class="footer">
+        &copy; David Folgado e Tiago Manteigas
+    </div>
+</footer>
+</body>
+</html>
